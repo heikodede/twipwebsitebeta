@@ -74,7 +74,7 @@ input:checked ~ label > .faqArrow > div {
 
 @layer base {
     header.opened {
-        @apply bg-secondary fixed top-0 left-0 right-0 bottom-0;
+        @apply bg-secondary fixed top-0 left-0 right-0 bottom-[-500px];
     }
     header.opened a[aria-label="Home"] {
         @apply hidden;

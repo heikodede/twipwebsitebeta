@@ -35,8 +35,8 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'DEFAULT': '0 6px 10px 0 rgba(0, 0, 0, 0.3)',
-        'hover': '0 8px 16px 0 rgba(0, 0, 0, 0.3)'
+        'DEFAULT': '0 6px 10px 0 rgba(0, 0, 0, 0.2)',
+        'hover': '0 8px 16px 0 rgba(0, 0, 0, 0.2)'
       },
       maxWidth: {
         '1080': '1080px',

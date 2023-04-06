@@ -12,12 +12,12 @@ html:not([data-scroll="0"]) header {
 
 /*Ticker Animations*/
 .tickers > .scroll:nth-child(even)>div {
-    animation: tickerLeft 120s linear infinite;
-    animation-delay: -120s;
+    animation: tickerLeft 160s linear infinite;
+    animation-delay: -160s;
 }
 .tickers > .scroll:nth-child(odd)>div {
-    animation: tickerRight 120s linear infinite;
-    animation-delay: -120s;
+    animation: tickerRight 160s linear infinite;
+    animation-delay: -160s;
 }
 
 /*FAQ Section*/
@@ -47,12 +47,12 @@ input:checked ~ label > .faqArrow > div {
 }
 
 .tickers > .scroll:nth-child(even)>div:nth-child(2) {
-    animation: tickerLeft2 120s linear infinite;
-    animation-delay: -60s;
+    animation: tickerLeft2 160s linear infinite;
+    animation-delay: -80s;
 }
 .tickers > .scroll:nth-child(odd)>div:nth-child(2) {
-    animation: tickerRight2 120s linear infinite;
-    animation-delay: -60s;
+    animation: tickerRight2 160s linear infinite;
+    animation-delay: -80s;
 }
 
 @keyframes tickerLeft2 {

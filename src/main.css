@@ -92,6 +92,6 @@ input:checked ~ label > .faqArrow > div {
         transition: all 0.2s ease-in-out;
       }
       #menuItems a.active:after {
-        @apply md:opacity-100;
+        @apply lg:opacity-100;
       } 
 }
